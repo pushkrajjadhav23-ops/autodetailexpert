@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Detailing Expert | Ceramic Coating &amp; PPF, Mundhwa, Pune</title>
+<meta name="description" content="Auto Detailing Expert is a car wash and detailing studio in Mundhwa, Pune specializing in ceramic coating, PPF, paint correction and interior detailing. Free parking, open 7 days.">
+<link rel="canonical" href="https://example.com/">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<meta property="og:title" content="Auto Detailing Expert, Mundhwa, Pune">
+<meta property="og:description" content="Car wash, ceramic coating, PPF and interior detailing. Free parking. Open 7 days.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Auto Detailing Expert",
+  "description": "Car wash and detailing studio specializing in ceramic coating, PPF and interior detailing.",
+  "address": { "@type": "PostalAddress", "streetAddress": "Survey No. 80, Ganesh Baug, Mundhwa Road, Pinglewasti", "addressLocality": "Pune", "addressRegion": "Maharashtra", "postalCode": "411036", "addressCountry": "IN" },
+  "telephone": "+91 99701 54751",
+  "openingHours": "Mo-Su 09:30-19:30",
+  "priceRange": "₹₹"
+}
+</script>
+<style>
+  :root{
+    --white:#ffffff;
+    --off-white:#f6f5f2;
+    --ink:#181818;
+    --gray-700:#4a4a4a;
+    --gray-500:#7a7a7a;
+    --gray-300:#e2e0da;
+    --gray-200:#eeece7;
+    --red-600:#e2231a;
+    --red-700:#b91a13;
+    --blue-600:#1c56b0;
+    --blue-700:#153f81;
+    --radius:4px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--white);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:64px; /* room for sticky mobile bar */
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+  h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.01em;line-height:1.08;}
+  .eyebrow{
+    font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;
+    color:var(--red-600);margin-bottom:8px;display:block;
+  }
+  :focus-visible{outline:2px solid var(--red-600);outline-offset:3px;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;background:var(--white);
+    border-bottom:3px solid var(--red-600);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;}
+  .logo{display:flex;align-items:center;gap:10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;text-transform:uppercase;color:var(--ink);}
+  .logo .accent{color:var(--red-600);}
+  nav ul{display:flex;gap:28px;list-style:none;}
+  nav ul a{font-size:14px;font-weight:600;color:var(--gray-700);}
+  nav ul a:hover{color:var(--red-600);}
+  .btn{
+    font-size:14px;font-weight:700;padding:12px 22px;border-radius:var(--radius);
+    display:inline-flex;align-items:center;gap:8px;border:2px solid transparent;cursor:pointer;
+    transition:all .15s;
+  }
+  .btn-red{background:var(--red-600);color:var(--white);}
+  .btn-red:hover{background:var(--red-700);}
+  .btn-blue{background:var(--blue-600);color:var(--white);}
+  .btn-blue:hover{background:var(--blue-700);}
+  .btn-outline{border-color:var(--gray-300);color:var(--ink);}
+  .btn-outline:hover{border-color:var(--red-600);color:var(--red-600);}
+  .nav-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;}
+
+  /* ---------- Hero banner ---------- */
+  .hero-banner{
+    background:linear-gradient(120deg,#181818 0%,#2c2c2c 55%,#3a3a3a 100%);
+    color:var(--white);padding:70px 0 60px;position:relative;overflow:hidden;
+  }
+  .hero-banner::after{
+    content:"";position:absolute;right:-60px;top:-40px;width:420px;height:420px;
+    border:60px solid rgba(226,35,26,0.18);border-radius:50%;
+  }
+  .hero-grid-2{display:grid;grid-template-columns:1.1fr 0.9fr;gap:40px;align-items:center;}
+  .hero-inner{position:relative;z-index:1;max-width:620px;}
+  .hero-image{position:relative;z-index:1;}
+  .hero-image img{width:100%;height:auto;border-radius:8px;box-shadow:0 20px 50px rgba(0,0,0,0.35);}
+  .hero-banner .eyebrow{color:var(--red-600);}
+  .hero-banner h1{font-size:46px;color:var(--white);margin-bottom:16px;}
+  .hero-banner p{font-size:16px;color:#d8d8d8;margin-bottom:28px;max-width:480px;}
+  .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;}
+
+  /* ---------- Gallery ---------- */
+  .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .gallery-item{border-radius:var(--radius);overflow:hidden;border:1px solid var(--gray-300);}
+  .gallery-item img{width:100%;height:auto;display:block;transition:transform .3s;}
+  .gallery-item:hover img{transform:scale(1.04);}
+
+  /* ---------- Info strip ---------- */
+  .info-strip{background:var(--off-white);border-bottom:1px solid var(--gray-300);}
+  .info-grid{display:grid;grid-template-columns:repeat(4,1fr);}
+  .info-item{padding:20px 24px;border-right:1px solid var(--gray-300);}
+  .info-item:last-child{border-right:none;}
+  .info-item .label{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--red-600);margin-bottom:4px;display:block;}
+  .info-item .val{font-size:14px;color:var(--ink);font-weight:600;}
+
+  /* ---------- Section shell ---------- */
+  section{padding:70px 0;}
+  section.alt{background:var(--off-white);}
+  .section-head{max-width:600px;margin-bottom:40px;}
+  .section-head h2{font-size:32px;color:var(--ink);}
+  .section-head p{color:var(--gray-700);margin-top:12px;font-size:16px;}
+
+  /* ---------- Services carousel ---------- */
+  .carousel-wrap{display:flex;align-items:center;gap:10px;}
+  .carousel{
+    display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;padding:6px 2px 18px;flex:1;
+    -ms-overflow-style:none;scrollbar-width:none;
+  }
+  .carousel::-webkit-scrollbar{display:none;}
+  .car-card{
+    scroll-snap-align:start;flex:0 0 auto;width:280px;
+    background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .car-card img{width:100%;height:150px;object-fit:cover;display:block;border-bottom:3px solid var(--red-600);}
+  .car-card-body{padding:20px 22px 24px;}
+  .car-cat{font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--red-600);}
+  .car-card h4{font-size:20px;color:var(--ink);margin:10px 0 8px;font-weight:700;text-transform:none;}
+  .car-card p{font-size:14px;color:var(--gray-700);}
+  .car-nav{
+    flex:0 0 auto;width:40px;height:40px;border-radius:50%;border:1px solid var(--gray-300);
+    background:var(--white);font-size:20px;color:var(--ink);cursor:pointer;
+    display:flex;align-items:center;justify-content:center;transition:all .15s;
+  }
+  .car-nav:hover{border-color:var(--red-600);color:var(--red-600);}
+  .car-dots{display:flex;justify-content:center;gap:6px;margin-top:6px;}
+  .car-dots span{width:6px;height:6px;border-radius:50%;background:var(--gray-300);transition:background .2s;}
+  .car-dots span.active{background:var(--red-600);}
+  @media(max-width:600px){
+    .car-nav{display:none;}
+    .car-card{width:78vw;}
+  }
+
+  /* ---------- Process ---------- */
+  .process{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;}
+  .process-step{background:var(--white);border:1px solid var(--gray-300);border-top:3px solid var(--red-600);padding:20px 18px;border-radius:0 0 var(--radius) var(--radius);}
+  .process-step .step-no{font-family:'Barlow Condensed',sans-serif;font-weight:700;color:var(--red-600);font-size:26px;}
+  .process-step h4{font-size:16px;margin:8px 0 6px;color:var(--ink);}
+  .process-step p{font-size:13px;color:var(--gray-700);}
+
+  /* ---------- Tips ---------- */
+  .tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  .tip-card{background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);padding:24px;}
+  .tip-card .step-no{color:var(--red-600);font-weight:700;font-family:'Barlow Condensed',sans-serif;font-size:22px;}
+  .tip-card h4{font-size:18px;color:var(--ink);margin:8px 0;}
+  .tip-card p{font-size:14px;color:var(--gray-700);}
+
+  /* ---------- Standards ---------- */
+  .standards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .standard-item{background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);padding:22px;text-align:center;}
+  .standard-item .mark{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;color:var(--ink);}
+  .standard-item .sub{font-size:12px;color:var(--gray-500);margin-top:4px;}
+
+  /* ---------- Testimonials ---------- */
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .testi-card{background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);padding:24px;}
+  .testi-card p{font-size:14px;color:var(--ink);margin-bottom:16px;}
+  .testi-name{font-size:13px;font-weight:700;color:var(--ink);}
+  .testi-car{font-size:12px;color:var(--gray-500);}
+  .stars{color:var(--red-600);letter-spacing:2px;margin-bottom:10px;font-size:14px;}
+
+  /* ---------- Store info ---------- */
+  .store-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;}
+  .store-block{background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);padding:24px;}
+  .store-block h4{font-size:13px;font-weight:700;color:var(--red-600);letter-spacing:0.08em;margin-bottom:12px;}
+  .store-block ul{list-style:none;font-size:14px;color:var(--gray-700);}
+  .store-block li{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--gray-300);}
+  .store-block li:last-child{border-bottom:none;}
+  .store-block li span:first-child{color:var(--gray-500);}
+  .tag-row{display:flex;flex-wrap:wrap;gap:8px;}
+  .tag{font-size:12px;font-weight:600;color:var(--gray-700);border:1px solid var(--gray-300);border-radius:20px;padding:6px 12px;}
+
+  /* ---------- FAQ ---------- */
+  .faq-item{border-bottom:1px solid var(--gray-300);}
+  .faq-item summary{
+    padding:18px 0;cursor:pointer;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;
+    color:var(--ink);text-transform:uppercase;list-style:none;display:flex;justify-content:space-between;align-items:center;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"+";color:var(--red-600);font-size:22px;font-weight:400;}
+  .faq-item[open] summary::after{content:"–";}
+  .faq-item p{font-size:14px;color:var(--gray-700);padding-bottom:18px;max-width:640px;}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;}
+  .contact-info h2{font-size:30px;color:var(--ink);margin-bottom:16px;}
+  .contact-info p{color:var(--gray-700);margin-bottom:24px;}
+  .contact-detail{margin-bottom:16px;font-size:14px;}
+  .contact-detail .label{font-size:11px;font-weight:700;color:var(--red-600);letter-spacing:0.08em;text-transform:uppercase;display:block;margin-bottom:3px;}
+  form{background:var(--white);border:1px solid var(--gray-300);border-radius:var(--radius);padding:28px;}
+  .field{margin-bottom:16px;}
+  .field label{display:block;font-size:12px;font-weight:600;color:var(--gray-700);margin-bottom:6px;}
+  .field input,.field select,.field textarea{
+    width:100%;background:var(--off-white);border:1px solid var(--gray-300);
+    color:var(--ink);padding:12px 14px;font-family:'Inter',sans-serif;font-size:14px;border-radius:var(--radius);
+  }
+  .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--red-600);outline:none;}
+  .field textarea{resize:vertical;min-height:90px;}
+  form .btn{width:100%;justify-content:center;padding:14px;margin-top:4px;}
+
+  /* ---------- Footer ---------- */
+  footer{padding:30px 0;background:var(--ink);color:#bbb;}
+  .footer-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;}
+  .footer-row p{font-size:12px;}
+  .footer-links{display:flex;gap:22px;}
+  .footer-links a{font-size:12px;color:#bbb;}
+  .footer-links a:hover{color:var(--red-600);}
+
+  /* ---------- Sticky mobile call bar ---------- */
+  .sticky-bar{
+    display:none;position:fixed;bottom:0;left:0;right:0;z-index:60;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  .sticky-bar a{
+    display:flex;align-items:center;justify-content:center;gap:6px;
+    padding:16px 0;font-size:13px;font-weight:700;color:var(--white);
+  }
+  .sticky-bar .call{background:var(--red-600);}
+  .sticky-bar .whatsapp{background:#25d366;}
+  .sticky-bar .directions{background:var(--blue-600);}
+
+  /* ---------- Floating WhatsApp button (desktop) ---------- */
+  .wa-float{
+    position:fixed;bottom:28px;right:28px;z-index:60;
+    width:56px;height:56px;border-radius:50%;background:#25d366;color:var(--white);
+    display:flex;align-items:center;justify-content:center;font-size:26px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);text-decoration:none;
+  }
+
+  @media(max-width:900px){
+    .hero-grid-2{grid-template-columns:1fr;}
+    .hero-image{order:-1;}
+    .hero-banner h1{font-size:34px;}
+    .info-grid{grid-template-columns:repeat(2,1fr);}
+    .info-item{border-bottom:1px solid var(--gray-300);}
+    .process{grid-template-columns:repeat(2,1fr);}
+    .tips-grid{grid-template-columns:1fr;}
+    .standards-grid{grid-template-columns:repeat(2,1fr);}
+    .testi-grid{grid-template-columns:1fr;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .store-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+    nav ul{display:none;}
+    .nav-toggle{display:block;}
+    .nav .btn-red{display:none;}
+    .sticky-bar{display:grid;}
+    .wa-float{display:none;}
+    body{padding-bottom:60px;}
+  }
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo"><img src="assets/logo.png" alt="Auto Detailing Expert logo" style="height:42px;width:42px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;">Auto <span class="accent">Detailing Expert</span></div>
+    <nav><ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+    <a href="tel:+919970154751" class="btn btn-red">Call Now</a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<div class="hero-banner">
+  <div class="wrap hero-grid-2">
+    <div class="hero-inner">
+      <span class="eyebrow">Mundhwa · Pune</span>
+      <h1>Car wash &amp; detailing, done properly.</h1>
+      <p>Ceramic coating, PPF, paint correction and full interior detailing — with a written scope and a written warranty on every job.</p>
+      <div class="hero-ctas">
+        <a href="tel:+919970154751" class="btn btn-red">📞 Call Studio</a>
+        <a href="#contact" class="btn btn-outline" style="background:#fff;">Book Free Inspection</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/images/hero-car.svg" alt="Car detailing at Auto Detailing Expert, Mundhwa">
+    </div>
+  </div>
+</div>
+
+<div class="info-strip">
+  <div class="wrap info-grid">
+    <div class="info-item"><span class="label">Location</span><span class="val">Ganesh Baug, Mundhwa Road</span></div>
+    <div class="info-item"><span class="label">Hours Today</span><span class="val">09:30 AM – 07:30 PM</span></div>
+    <div class="info-item"><span class="label">Landmark</span><span class="val">Near Ganpati Mandir</span></div>
+    <div class="info-item"><span class="label">Parking</span><span class="val">Free on-site</span></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Services</span>
+      <h2>Everything your car needs, one swipe away.</h2>
+      <p>Each service has a fixed scope. You'll know exactly what's being done before we start — call the studio for current rates.</p>
+    </div>
+
+    <div class="carousel-wrap">
+      <button class="car-nav prev" aria-label="Previous services">‹</button>
+      <div class="carousel" id="serviceCarousel">
+        <div class="car-card">
+          <img src="assets/images/service-1.svg" alt="Ceramic coating service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Exterior Protection</span>
+            <h4>Ceramic Coating</h4>
+            <p>9H-rated coating that beads water and resists UV fade, applied in a dust-controlled bay with a written 3–5 year warranty.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-2.svg" alt="Paint protection film service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Exterior Protection</span>
+            <h4>Paint Protection Film</h4>
+            <p>Self-healing TPU film computer-cut to your exact model, covering high-impact panels or the full body.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-3.svg" alt="Sun control window film service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Exterior Protection</span>
+            <h4>Sun Control Window Film</h4>
+            <p>Heat-rejecting film that keeps the cabin cooler without changing how the glass looks from outside.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-4.svg" alt="Paint correction service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Appearance &amp; Finish</span>
+            <h4>Paint Correction</h4>
+            <p>Multi-stage machine polishing to remove swirl marks, oxidation, and light scratches before any coating goes on.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-5.svg" alt="Gloss boost polish service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Appearance &amp; Finish</span>
+            <h4>Gloss Boost Polish</h4>
+            <p>A single-stage machine polish for cars in good condition that just need the shine brought back.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-6.svg" alt="Full body wrap service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Appearance &amp; Finish</span>
+            <h4>Full Body Wrap</h4>
+            <p>Colour or texture change using vinyl wrap film, installed panel by panel with no cutting on the car body.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-7.svg" alt="Interior detailing service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Interior Care</span>
+            <h4>Interior Detailing</h4>
+            <p>Steam sanitisation, leather conditioning, and fabric extraction — done panel by panel, not sprayed and wiped.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-8.svg" alt="Cabin air and AC care service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Interior Care</span>
+            <h4>Cabin Air &amp; AC Care</h4>
+            <p>Vent and cabin filter cleaning to cut down odour and improve AC cooling efficiency.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-9.svg" alt="Dashboard and trim polish service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Interior Care</span>
+            <h4>Dashboard &amp; Trim Polish</h4>
+            <p>UV-safe dressing for dashboard, door cards, and plastic trim that won't leave a greasy residue.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-10.svg" alt="Underbody anti-rust coating service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Anti-Rust &amp; Engine</span>
+            <h4>Underbody Anti-Rust Coating</h4>
+            <p>Protective coating on the underbody and wheel arches to guard against monsoon rust and corrosion.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-11.svg" alt="Silencer and exhaust coating service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Anti-Rust &amp; Engine</span>
+            <h4>Silencer &amp; Exhaust Coating</h4>
+            <p>Heat-resistant anti-rust coating for the exhaust and silencer assembly.</p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="assets/images/service-12.svg" alt="Engine bay detailing service" loading="lazy">
+          <div class="car-card-body">
+            <span class="car-cat">Anti-Rust &amp; Engine</span>
+            <h4>Engine Bay Detailing</h4>
+            <p>Careful degreasing and dressing of the engine bay without water near sensitive electricals.</p>
+          </div>
+        </div>
+      </div>
+      <button class="car-nav next" aria-label="Next services">›</button>
+    </div>
+    <div class="car-dots" id="carDots"></div>
+  </div>
+</section>
+
+<section id="process" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Process</span>
+      <h2>What happens to your car, in order.</h2>
+    </div>
+    <div class="process">
+      <div class="process-step"><div class="step-no">01</div><h4>Inspection</h4><p>Condition check and a written quote before any work starts.</p></div>
+      <div class="process-step"><div class="step-no">02</div><h4>Wash</h4><p>Foam wash and clay bar to strip embedded dirt off the paint.</p></div>
+      <div class="process-step"><div class="step-no">03</div><h4>Correction</h4><p>Machine polishing checked stage by stage in a lit bay.</p></div>
+      <div class="process-step"><div class="step-no">04</div><h4>Protection</h4><p>Coating or PPF applied and cured fully before pickup.</p></div>
+      <div class="process-step"><div class="step-no">05</div><h4>Handover</h4><p>Final walkaround, photos, and your warranty paperwork.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Gallery</span>
+      <h2>Recent work from the studio.</h2>
+      <p>A look at some of the jobs that came through the bay this year.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="assets/images/gallery-1.svg" alt="Ceramic coating job, before and after finish" loading="lazy"></div>
+      <div class="gallery-item"><img src="assets/images/gallery-2.svg" alt="Paint protection film install on front bumper" loading="lazy"></div>
+      <div class="gallery-item"><img src="assets/images/gallery-3.svg" alt="Paint correction removing swirl marks" loading="lazy"></div>
+      <div class="gallery-item"><img src="assets/images/gallery-4.svg" alt="Interior detailing, steam and leather care" loading="lazy"></div>
+      <div class="gallery-item"><img src="assets/images/gallery-5.svg" alt="Full body wrap colour change project" loading="lazy"></div>
+      <div class="gallery-item"><img src="assets/images/gallery-6.svg" alt="Engine bay detailing, degrease and dress" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section id="tips">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Car Care Tips</span>
+      <h2>Small habits that protect the finish between visits.</h2>
+    </div>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="step-no">01</div>
+        <h4>Wash with two buckets</h4>
+        <p>Keep one bucket for soap and one for rinsing your wash mitt. Rinsing between passes stops grit from being dragged back across the paint — one of the main causes of fine swirl marks.</p>
+      </div>
+      <div class="tip-card">
+        <div class="step-no">02</div>
+        <h4>Skip the household detergent</h4>
+        <p>Dish soap and general-purpose cleaners strip wax and sealant along with the dirt. A pH-neutral car shampoo cleans just as well without leaving the paint bare.</p>
+      </div>
+      <div class="tip-card">
+        <div class="step-no">03</div>
+        <h4>Dry with a clean microfiber towel</h4>
+        <p>Dragging a rough or dirty cloth across the surface is how most swirl marks actually happen. Blot dry instead of wiping in long strokes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="standards" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Standards</span>
+      <h2>Why owners trust us with cars they care about.</h2>
+    </div>
+    <div class="standards-grid">
+      <div class="standard-item"><div class="mark">IDA Certified</div><div class="sub">Detailer on record</div></div>
+      <div class="standard-item"><div class="mark">₹25L Cover</div><div class="sub">Garage liability insurance</div></div>
+      <div class="standard-item"><div class="mark">Written Warranty</div><div class="sub">On every coating &amp; PPF job</div></div>
+      <div class="standard-item"><div class="mark">CCTV Bay</div><div class="sub">Footage available on request</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Reviews</span>
+      <h2>From owners, not actors.</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>Professional and courteous — they explained the whole process before starting. Car looked showroom-fresh after the ceramic coating.</p>
+        <div class="testi-name">Rakesh R.</div><div class="testi-car">Sedan, Chinchwad</div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>PPF install on the front end was seamless — no visible edges. Took two full days, exactly as they quoted.</p>
+        <div class="testi-name">Ananya S.</div><div class="testi-car">SUV, Kothrud</div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>Coating warranty is actually in writing, not a verbal promise. Reapplied a small chip touch-up under it at no charge.</p>
+        <div class="testi-name">Faisal M.</div><div class="testi-car">Hatchback, Hinjewadi</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="store-info" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Visit</span>
+      <h2>Studio details.</h2>
+    </div>
+    <div class="store-grid">
+      <div class="store-block">
+        <h4>BUSINESS HOURS</h4>
+        <ul>
+          <li><span>Mon – Sun</span><span>09:30 – 19:30</span></li>
+          <li><span>Drop-off</span><span>By appointment</span></li>
+        </ul>
+      </div>
+      <div class="store-block">
+        <h4>FACILITIES</h4>
+        <ul>
+          <li><span>Parking</span><span>Free on-site</span></li>
+          <li><span>Waiting area</span><span>AC lounge</span></li>
+          <li><span>CCTV bay</span><span>On request</span></li>
+        </ul>
+      </div>
+      <div class="store-block">
+        <h4>PAYMENT METHODS</h4>
+        <div class="tag-row">
+          <span class="tag">Cash</span><span class="tag">UPI</span><span class="tag">Credit Card</span><span class="tag">Debit Card</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions we get most.</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>How long does ceramic coating take?</summary>
+        <p>A full correction-and-coating job typically takes 2–3 days, since the paint needs time to cure under controlled conditions before the car leaves the bay.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Will paint correction remove deep scratches?</summary>
+        <p>It removes swirl marks, light scratches, and oxidation in the clear coat. Deeper scratches that reach the base colour need touch-up paint first — we'll flag this during inspection.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need to book in advance?</summary>
+        <p>Inspections and basic washes are walk-in friendly. Coating and PPF slots are booked in advance since each job takes the full bay for multiple days.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What does the warranty actually cover?</summary>
+        <p>Coating and PPF warranties cover failure of the product itself — peeling, yellowing, or loss of hydrophobic properties. They don't cover new stone chips or accident damage.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="alt">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow">Contact</span>
+      <h2>Book a free inspection.</h2>
+      <p>15 minutes, no obligation. We'll give you a condition report and a fixed quote before you decide anything.</p>
+      <div class="contact-detail"><span class="label">Studio</span>Survey No. 80, Ganesh Baug, Mundhwa Road, Pinglewasti, Nr Ganpati Mandir, Pune 411036</div>
+      <div class="contact-detail"><span class="label">Hours</span>Mon–Sun, 09:30–19:30</div>
+      <div class="contact-detail"><span class="label">Phone</span>+91 99701 54751</div>
+      <div class="contact-detail"><span class="label">Email</span>info@autodetailingexpert.in</div>
+    </div>
+    <form id="leadForm">
+      <div class="field"><label for="name">Name</label><input id="name" type="text" placeholder="Your name" required></div>
+      <div class="field"><label for="phone">Phone</label><input id="phone" type="tel" placeholder="+91" required></div>
+      <div class="field"><label for="vehicle">Vehicle</label><input id="vehicle" type="text" placeholder="e.g. Hyundai Creta, 2022"></div>
+      <div class="field">
+        <label for="service">Interested in</label>
+        <select id="service">
+          <option>Ceramic Coating</option>
+          <option>Paint Protection Film</option>
+          <option>Paint Correction</option>
+          <option>Interior Detailing</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="field"><label for="notes">Notes</label><textarea id="notes" placeholder="Anything we should know beforehand"></textarea></div>
+      <button type="submit" class="btn btn-red" id="submitBtn">Request Inspection Slot</button>
+      <p id="formStatus" style="font-size:13px;margin-top:12px;color:var(--gray-700);"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <p>© 2026 Auto Detailing Expert. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#store-info">Visit</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-bar">
+  <a href="tel:+919970154751" class="call">📞 Call</a>
+  <a href="https://wa.me/919970154751?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20car%20detailing%20services." class="whatsapp" target="_blank" rel="noopener">💬 WhatsApp</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Auto+Detailing+Expert+Survey+No+80+Ganesh+Baug+Mundhwa+Road+Pune+411036" class="directions">📍 Directions</a>
+</div>
+
+<a href="https://wa.me/919970154751?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20car%20detailing%20services." class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+  (function(){
+    const carousel = document.getElementById('serviceCarousel');
+    const dotsWrap = document.getElementById('carDots');
+    const cards = carousel.querySelectorAll('.car-card');
+    cards.forEach((_, i) => {
+      const d = document.createElement('span');
+      if(i === 0) d.classList.add('active');
+      dotsWrap.appendChild(d);
+    });
+    const dots = dotsWrap.querySelectorAll('span');
+
+    function cardWidth(){
+      const card = cards[0];
+      const style = getComputedStyle(carousel);
+      return card.offsetWidth + parseInt(style.gap || 18);
+    }
+    document.querySelector('.car-nav.prev').addEventListener('click', () => {
+      carousel.scrollBy({left: -cardWidth(), behavior:'smooth'});
+    });
+    document.querySelector('.car-nav.next').addEventListener('click', () => {
+      carousel.scrollBy({left: cardWidth(), behavior:'smooth'});
+    });
+    carousel.addEventListener('scroll', () => {
+      const idx = Math.round(carousel.scrollLeft / cardWidth());
+      dots.forEach((d,i) => d.classList.toggle('active', i === idx));
+    }, {passive:true});
+  })();
+
+  // ===== Lead form: sends to Google Sheets AND opens WhatsApp =====
+  // 1. Follow the setup guide (apps-script-setup.md) to get your own URL below.
+  const GOOGLE_SCRIPT_URL = "PASTE_YOUR_DEPLOYED_APPS_SCRIPT_URL_HERE";
+  const WHATSAPP_NUMBER = "919970154751";
+
+  const leadForm = document.getElementById("leadForm");
+  const submitBtn = document.getElementById("submitBtn");
+  const formStatus = document.getElementById("formStatus");
+
+  leadForm.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const vehicle = document.getElementById("vehicle").value.trim();
+    const service = document.getElementById("service").value;
+    const notes = document.getElementById("notes").value.trim();
+
+    if(!name || !phone){
+      formStatus.textContent = "Please enter your name and phone number.";
+      formStatus.style.color = "var(--red-600)";
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Sending…";
+    formStatus.textContent = "";
+
+    const payload = { name, phone, vehicle, service, notes, source: "Website" };
+
+    const sendToSheet = GOOGLE_SCRIPT_URL.startsWith("PASTE_")
+      ? Promise.resolve() // skip until the real URL is set, so the demo still works
+      : fetch(GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors", // Apps Script doesn't return readable CORS headers; we fire-and-forget
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(payload)
+        }).catch(() => {}); // don't block WhatsApp if the sheet call fails
+
+    sendToSheet.finally(() => {
+      const waText = encodeURIComponent(
+        `Hi Auto Detailing Expert, I'd like to book an inspection.\n\n` +
+        `Name: ${name}\nPhone: ${phone}\nVehicle: ${vehicle || "-"}\n` +
+        `Interested in: ${service}\nNotes: ${notes || "-"}`
+      );
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`, "_blank");
+
+      formStatus.textContent = "Thanks! Opening WhatsApp so you can send this straight to us.";
+      formStatus.style.color = "var(--gray-700)";
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Request Inspection Slot";
+      leadForm.reset();
+    });
+  });
+</script>
+
+</body>
+</html>
